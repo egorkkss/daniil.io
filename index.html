@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Даниил - Личная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #343a40, #23272b);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #212529;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: #fff;
+            border: 2px solid #343a40;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-picture img {
+            max-width: 100%;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #343a40;
+            font-size: 24px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        #about, #interests, #contacts {
+            margin-bottom: 40px;
+        }
+
+        #interests {
+            animation: pulse 2s ease infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на личную страницу Даниила</h1>
+    </header>
+    <section id="about">
+        <div class="profile-picture">
+            <img src="img/daniil.jpg" alt="Фотография Даниила">
+        </div>
+        <h2>О Данииле</h2>
+        <p>Даниил — творческий и амбициозный человек, всегда готовый к новым вызовам. Он обладает ответственным и надежным характером, что делает его отличным партнером и другом. Своим дружелюбием и общительностью он легко завоевывает сердца окружающих. В свободное время Даниил предпочитает заниматься спортом и поддерживать активный образ жизни, всегда стремясь к самосовершенствованию и развитию своих навыков и знаний.</p>
+        <p>Советы Даниилу: Иди всегда к своей цели, и у тебя всё получится. Не бросай программирование!</p>
+        <a href="https://t.me/umnicicha" class="btn" target="_blank">Написать Даниилу в Telegram</a>
+    </section>
+    <section id="interests">
+        <h2>Интересы</h2>
+        <p>Программирование, спорт.</p>
+    </section>
+</body>
+</html>
